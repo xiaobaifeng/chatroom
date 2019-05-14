@@ -1,0 +1,29 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "learn create chatroom by socket.io and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch"
+  },
+  "author": "cwb",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "socket.io": "^2.2.0",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "webpack-dev-middleware": "^3.6.2",
+    "webpack-hot-middleware": "^2.24.4"
+  }
+}
